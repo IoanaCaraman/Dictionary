@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="index.js"></script>
     <meta charset="UTF-8">
     <title>Dictionary</title>
 </head>
 <body>
-
+    <div>
+        <input id="dictionaryInput" type="text">
+        <button type="button" onClick="checkWord()" >Search</button>
+        <button id="saveButton" disabled type="button" onClick="addWord()" >Save</button>
+    </div>
+    <div>
+        <p id="dictionaryMessage">
+        </p>
+    </div>
 </body>
 </html>
